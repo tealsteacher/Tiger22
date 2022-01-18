@@ -1,4 +1,4 @@
-package studentWork.tealsteacher.Arrays;
+//package studentWork.tealsteacher.Arrays;
 
 import java.util.Arrays;
 
@@ -17,6 +17,9 @@ public class Camping {
       // babyGrowls array here and call countBabyGrowls Method
       int[] babyGrowls = new int[43];
       int growlCount = countBabyGrowls(babyGrowls);
+
+      double[] naps = {1.5, .75, 2.25, .5, 3, .25};
+      double napsin = increaseNaps(naps);
 
       
 
@@ -69,10 +72,16 @@ public class Camping {
     
     // increaseNap static method here
     
+    public static double increaseNaps(double[] arrayCount){
+            // for loop to intialize array
 
+            double increase = 0.0;
+            for (int i = 0; i < arrayCount.length; i++) {
+              increase = arrayCount[i] + .25;
+            }
+              return increase;
 
-
-    
+          }
     // minHarlowNaps static method here     
     
 
