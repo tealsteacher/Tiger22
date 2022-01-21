@@ -1,6 +1,6 @@
 // Print a simple calendar for the month of Feb 2022 two different ways.
 
-package sampleCode.Arrays;
+//package sampleCode.Arrays;
 
 public class FebCalendar {
     public static void main(String[] args) {
