@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //package studentWork.Arrays;
+=======
+//package sampleCode.Arrays;
+>>>>>>> 430aa52c4ffaf480bbeb383d60f62db181c6e9e0
 
 import java.util.Arrays;
 
@@ -8,9 +12,15 @@ public class PassingParametersLab {
     public static void main(String[] args) {
         /***** PART 1 - uncomment the lines below. *****/
         // int myNum = 23;
+<<<<<<< HEAD
         //System.out.println("myNum before change: " + myNum);
         //changeNumber(myNum);
         //System.out.println("myNum after change: " + myNum);
+=======
+        // System.out.println("myNum before change: " + myNum);
+        // changeNumber(myNum);
+        // System.out.println("myNum after change: " + myNum);
+>>>>>>> 430aa52c4ffaf480bbeb383d60f62db181c6e9e0
 
         /***** PART 2 - uncomment the lines below. *****/
         // int[] myArray = {45, 22, -1, 4, 16};
