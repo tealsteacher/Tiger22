@@ -1,4 +1,4 @@
-package sampleCode.Arrays;
+//package sampleCode.Arrays;
 
 import java.util.Arrays;
 
@@ -19,10 +19,10 @@ public class PassingParametersLab {
         // System.out.println("myArray after change: " + Arrays.toString(myArray));
 
         /***** PART 3 - uncomment the lines below. *****/
-        // String[] myStringArray = {"hello", "world"};
-        // System.out.println("myStringArray before change: " + Arrays.toString(myStringArray));
-        // changeArrayReference(myStringArray);
-        // System.out.println("myStringArray after change: " + Arrays.toString(myStringArray));
+        String[] myStringArray = {"hello", "world"};
+        System.out.println("myStringArray before change: " + Arrays.toString(myStringArray));
+        changeArrayReference(myStringArray);
+        System.out.println("myStringArray after change: " + Arrays.toString(myStringArray));
     }
 
     /** Used in PART 1. */
