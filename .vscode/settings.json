@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "studentWork/tealsteacher/Arrays",
         "sampleCode/Arrays",
-        "studentWork/tealsteacher/Arrays"
+        "studentWork/tealsteacher/ArrayList"
     ]
 }
