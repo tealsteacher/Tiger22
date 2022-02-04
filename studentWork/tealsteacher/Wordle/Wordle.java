@@ -1,3 +1,6 @@
+//package studentWork.tealsteacher.Wordle;
+
+import java.util.Random;
 import java.util.Scanner;
 
 public class Wordle {
@@ -11,6 +14,7 @@ public class Wordle {
       System.out.println("There are " + WordLists.TARGETS.size() + " possible targets");
       
       String target = getRandomTarget();
+      System.out.println(target);
       
       for (int i = 1; i <= 6; i++) {
          System.out.println("\nGuess " + i);
@@ -19,7 +23,7 @@ public class Wordle {
          System.out.println("You guessed " + guess);
          
          // TODO (Step 1): change the if condition below to check if the guess was correct
-         if (false) {
+         if (target.equals(guess)) {
             System.out.println("You found the target word in " + i + " guesses!");
             return;
          } else {
@@ -39,7 +43,11 @@ public class Wordle {
        * WordLists.TARGETS.size() - 1 (inclusive) and returning
        * the word stored at that index.
        */
-      return "arrow";
+      int size = WordLists.TARGETS.size() - 1;
+      Random word = new Random();
+      int wordNum = word.nextInt(size);
+      String randomWord = WordLists.TARGETS.get(wordNum);
+      return randomWord;
    }
    
    public static String getGuess() {
@@ -54,7 +62,7 @@ public class Wordle {
          String guess = console.nextLine().toLowerCase();
          
          // TODO (Step 3): change the if condition below to check if the guess is the right length
-         if (false) {
+         if (!(guess.length()==5)) {
             System.out.println("Your guess must have 5 letters");
          } else if (!isRealWord(guess)) {
             System.out.println("You must enter a real word as your guess");
