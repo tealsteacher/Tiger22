@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
         "studentWork/tealsteacher/Wordle",
+        "studentWork/tealsteacher/Search",
         "studentWork/tealsteacher/Arrays",
         "studentWork/tealsteacher/ArrayList",
         "sampleCode/Arrays",
         "sampleCode/ArrayList",
-        "studentWork/tealsteacher/Search"
+        "studentWork/tealsteacher/Cumulative"
     ]
 }
