@@ -2,13 +2,15 @@
     "java.project.sourcePaths": [
         "studentWork/tealsteacher/Wordle",
         "studentWork/tealsteacher/Search",
+        "studentWork/tealsteacher/Elevens/Activity4",
         "studentWork/tealsteacher/Cumulative",
         "studentWork/tealsteacher/Constructor/This",
+        "studentWork/tealsteacher/Constructor/MarioKart",
         "studentWork/tealsteacher/Arrays",
         "studentWork/tealsteacher/ArrayList",
         "sampleCode/Cumulative",
         "sampleCode/Arrays",
         "sampleCode/ArrayList",
-        "studentWork/tealsteacher/Constructor/MarioKart"
+        "studentWork/tealsteacher/Elevens/Activity3"
     ]
 }
