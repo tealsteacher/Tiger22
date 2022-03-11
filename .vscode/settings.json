@@ -3,6 +3,7 @@
         "studentWork/tealsteacher/Wordle",
         "studentWork/tealsteacher/Search",
         "studentWork/tealsteacher/Elevens/Activity4",
+        "studentWork/tealsteacher/Elevens/Activity3",
         "studentWork/tealsteacher/Cumulative",
         "studentWork/tealsteacher/Constructor/This",
         "studentWork/tealsteacher/Constructor/MarioKart",
@@ -11,6 +12,6 @@
         "sampleCode/Cumulative",
         "sampleCode/Arrays",
         "sampleCode/ArrayList",
-        "studentWork/tealsteacher/Elevens/Activity3"
+        "sampleCode/ElevensLab/Activity9"
     ]
 }
