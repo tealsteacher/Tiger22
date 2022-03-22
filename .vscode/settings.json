@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "studentWork/tealsteacher/Wordle",
         "studentWork/tealsteacher/Search",
+        "studentWork/tealsteacher/Inheritance",
         "studentWork/tealsteacher/Elevens/Activity4",
         "studentWork/tealsteacher/Elevens/Activity3",
         "studentWork/tealsteacher/Cumulative",
@@ -13,6 +14,6 @@
         "sampleCode/Cumulative",
         "sampleCode/Arrays",
         "sampleCode/ArrayList",
-        "studentWork/tealsteacher/Inheritance"
+        "sampleCode/Inheritance/Animals"
     ]
 }
