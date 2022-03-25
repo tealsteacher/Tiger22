@@ -30,4 +30,5 @@ public class Animal {
       return "I have " + numberOfLegs + " legs and can travel " + topSpeedMPH + " miles per hour. "
          + " I eat " + food + " and I " + flyString + " fly.";
    }
+   
 }
