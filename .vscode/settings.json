@@ -2,8 +2,10 @@
     "java.project.sourcePaths": [
         "studentWork/tealsteacher/Wordle",
         "studentWork/tealsteacher/Search",
-        "studentWork/tealsteacher/Inheritance",
+        "studentWork/tealsteacher/Poly/Overload",
+        "studentWork/tealsteacher/Poly/Bird",
         "studentWork/tealsteacher/Inheritance/Animals",
+        "studentWork/tealsteacher/Inheritance",
         "studentWork/tealsteacher/Elevens/Activity4",
         "studentWork/tealsteacher/Elevens/Activity3",
         "studentWork/tealsteacher/Cumulative",
@@ -11,10 +13,12 @@
         "studentWork/tealsteacher/Constructor/MarioKart",
         "studentWork/tealsteacher/Arrays",
         "studentWork/tealsteacher/ArrayList",
+        "sampleCode/Poly/Bird",
+        "sampleCode/Inheritance/Animals",
         "sampleCode/ElevensLab/Activity9",
         "sampleCode/Cumulative",
         "sampleCode/Arrays",
         "sampleCode/ArrayList",
-        "sampleCode/Inheritance/Animals"
+        "studentWork/tealsteacher/Poly/Water"
     ]
 }
