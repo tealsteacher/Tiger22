@@ -14,7 +14,10 @@ public class AccountDemoClient {
       int cdInputNum = inputAccountNum.nextInt();
       System.out.println("Enter the CD term");
       int termInputNum = inputAccountNum.nextInt();
-
+      System.out.println("Enter the Credit Card account number");
+      int ccInputNum = inputAccountNum.nextInt();
+      System.out.println("Enter the Credit Card credit limit");
+      int limitInputNum = inputAccountNum.nextInt();
 
       SavingsAccount sa = new SavingsAccount(savingsInputNum, 10000);
       System.out.println("account number: " + sa.getAccoutNum());
@@ -38,5 +41,12 @@ public class AccountDemoClient {
       System.out.println("initial amount: " + cd.getAmount());
       cd.term(termInputNum);
       System.out.println("cd term (months): " + cd.getTerm());
+
+      CreditCardAccount cc = new CreditCardAccount(ccInputNum, 0);
+      System.out.println("account number: " + cc.getAccoutNum());
+      System.out.println("account type: " + cc.getType());
+      System.out.println("initial amount: " + cc.getAmount());
+      cc.creditLimit(limitInputNum);
+      System.out.println("Credit Limit: $" + cc.getLimit());
    }
 }
